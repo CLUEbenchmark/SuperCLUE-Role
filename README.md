@@ -12,7 +12,7 @@
 专门设计来评估和提升中文大模型在角色扮演方面的核心能力。SuperCLUE-Role（简称SC-Role）不仅保证了评估体系的细致全面，题目的高质量，
 同时在题目的多样性和应用广度进行了适当扩充。
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/SuperCLUE-Role20240401.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/SuperCLUE-Role20240401.png"  width="70%" height="70%"></img>
 
 
 SuperCLUE-Role基准具备以下特点：
@@ -51,7 +51,7 @@ SC-Role将作为一个中文原生的角色扮演测试集，通过全面的测�
 
 ## SC-Role与其他测评的区别与联系
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_different.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_different.png"  width="70%" height="70%"></img>
 
 
 ## 测评任务维度
@@ -148,9 +148,9 @@ SC-Role将作为一个中文原生的角色扮演测试集，通过全面的测�
 ## 示例
 
 
-####语言风格
+#### 语言风格
 
-####第一轮问题：
+#### 第一轮问题：
 
 请你扮演《万万没想到》中的王大锤，下面是角色信息：
 
@@ -234,13 +234,13 @@ NPC角色：格兰特
 
 #### 1.SuperCLUE-Role模型象限：
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_xx.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_xx.png"  width="70%" height="70%"></img>
 
 ▲ Role模型象限旨在区分国内外大模型在中文角色扮演能力上的定位差异。基础能力为角色基础和角色风格任务上的表现；应用能力为场景应用上的表现。
 
 #### 2.SuperCLUE-Role基准得分：
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_total.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_total.png"   width="70%" height="70%"></img>
 
 ▲ 本次测评选取了首批国内外代表性模型，后续会持续更新更多模型测评结果。
 
@@ -248,11 +248,11 @@ NPC角色：格兰特
 
 #### 3.SuperCLUE-Role细颗粒度得分：
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_detail.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_detail.png"   width="70%" height="70%"></img>
 
 
 #### 4.第一轮和第二轮差异：
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_difference.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_difference.png"   width="70%" height="70%"></img>
 
 在SC-Role测评中，随着角色扮演对话轮数的增加，模型的得分普遍降低，表明在多轮对话中模型的角色扮演能力随着对话轮数的增加可能会出现能力减弱，是需要进一步解决的问题。
 
@@ -265,21 +265,24 @@ NPC角色：格兰特
 
 可以看到在“角色基础”和“角色演绎力”维度上得分更高的模型，在“场景应用能力”维度上也倾向于有较高的得分。表明作为“角色基础”和“角色演绎力”共同支撑起模型的应用能力，更好的基础能力和更高的角色演绎力共同决定更好的应用能力。“角色基础”任务针对模型的对话能力和知识掌握水平，而“角色演绎力”任务则考察模型是否能够很好遵循角色的性格、语言风格、行为习惯和三观。
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_app.png"  width="30%" height="30%"></img>
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_basic_app.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_basic_app.png"   width="70%" height="70%"></img>
+
+<img src="https://github.com/####语言风格
+
+CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_app.png"   width="70%" height="70%"></img>
 
 #### 2.知识掌握水平的重要性
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_knowledge.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_knowledge.png"   width="70%" height="70%"></img>
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/app_knowledge.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/app_knowledge.png"   width="70%" height="70%"></img>
 
 根据分析，我们看到在中文原生测评环境下，角色演绎力和场景应用能力都与模型的知识掌握水平有着较强的相关性(皮尔逊相关系数分别为0.80和0.87)。通常较强的角色演绎力和场景应用能力需要模型具有不错的知识掌握水平。
 
 #### 3.在非常规的角色扮演问题上，模型能力有待加强
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/special_case.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/special_case.png"   width="70%" height="70%"></img>
 
 我们看到即使模型已经掌握了相关知识，仍然会出现无法识别到用户问题中存在的错误的现象，很多时候只会顺着用户的问题进行回答。
 
@@ -312,9 +315,9 @@ NPC角色：格兰特
 
 加入交流群或添加微信交流，或发送邮件到contact@superclue.ai，标题：SuperCLUE-Role测评。
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_group.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/role_group.png"   width="70%" height="70%"></img>
 
-<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/contact.png"  width="30%" height="30%"></img>
+<img src="https://github.com/CLUEbenchmark/SuperCLUE-Role/blob/main/resources/img/contact.png"   width="70%" height="70%"></img>
 
 #### 扩展阅读
 
